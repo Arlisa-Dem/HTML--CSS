@@ -11,7 +11,7 @@ p{
     color: #440606;
 }
 .Class1{
-    color: #000000;
+    color: #1d1b1b;
     background-color: aliceblue;
 }
 #id123{
@@ -23,7 +23,7 @@ p{
 
     height: 300px;
      width: 250px;
-     border: 3px solid rgb(8, 12, 26);
+     border: 3px solid rgb(22, 23, 24);
      margin: 15px;
 }
 .img2{
@@ -50,18 +50,20 @@ border: 5px solid red;
 }
 
 table{
-    border: 2px solid  #000000;
+    border: 2px solid  #967d7d;
     background-color: bisque;
 }
 
 th{
-    border: 2px solid  #0c0404;
+    border: 2px solid  #9b8a8a;
 }
 td{
-    border: 2px solid black;
+    border: 2px solid rgb(58, 54, 54);
 }
 
 #phoneId{
 color: red;
 background-color: aquamarine;
 }
+
+

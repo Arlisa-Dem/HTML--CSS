@@ -5,35 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/CSS" href="formStyle.css">
 </head>
 <body>
+    <center>
     <h1>Techpro Education Student Registration Form</h1>
-    <legend>Open An Account</legend><br>
-    <form>
+
+    <fieldset>
+   
+    <legend>Open An Account</legend>
+<br>
+   
+    <form >
         <label>Full Name :</label><br>
-        <input type="text" placeholder="Enter your name here">
+        <input type="text" placeholder="Enter your name ">
 <br>
 <br>
         <label>Username :</label><br>
-        <input type="text" placeholder="Enter your username here">
+        <input type="text" placeholder="Enter your username ">
 <br>
 <br>
         <label>Password :</label><br>
-        <input type="password" placeholder="Enter your password name here">
+        <input type="password" placeholder="Enter your password ">
                 
 <br>
 <br>
         <label>Re-Type Password :</label><br>
-        <input type="password" placeholder="Re-Type your password name here">
+        <input type="password" placeholder="Re-Type your password ">
                                 
 <br>
 <br>
         <label>Email :</label><br>
-        <input type="email" placeholder="Enter your email name ">
+        <input type="email" placeholder="Enter your email ">
 
 <br>
 <br>
-        <label>Languages :</label><br>
+        <label>Languages :</label>
+<br>
+<br>
         <input type="checkbox">
         <label>English</label><br>
         <input type="checkbox">
@@ -41,26 +50,82 @@
         <input type="checkbox">
         <label>Arabic</label><br>
         <input type="checkbox">
-        <label>Spanish</label><br>
-        <label>Gender</label><br>
-        <input type="radio">
+        <label>Spanish</label>
+<br>
+<br>
+        <label>Gender :</label>
+        <br>
+        <input name="gender" type="radio">
         <label>Male</label>
-        <input type="radio">
+        <input name="gender" type="radio">
         <label>Female</label>
-        <input type="radio">
+        <input name="gender" type="radio">
         <label>Other</label>
 <br>
 <br>
         <label>Select your Birthday</label>
 <br>
-<br>
         <input type="date">
 
+<br>
+<br>         
+        <label>Country :</label>
+
+<br>   
+        <select> 
+        <option disabled selected>Options</option>    
+        <option value="usa">USA</option>
+        <option value="Deutschland">Germany</option>
+        <option value="Shqiperi">Albania</option>
+        <option value="UK">England</option>
+        </select>
+<br>
+<br>
+       
+        <label>Select Your Favorite Color </label><br>
+        <input type="color">
+        
+<br>
+<br>
+        <label>Upload a file </label> 
+<br>  
+        <input type="file">     
+<br>
+<br> 
+        <label>Phone Number</label><br>
+        <input placeholder="xxx-xxx-xxxx" type="tel">
+<br>
+<br>
+        <label>Description :</label>
+<br>
+        <textarea rows="10" cols="10">Default description</textarea>
+<br>
+<br>
+        <input type="submit" value="Submit !"><br>
+        <button>Submit !</button>
 
 
-
+        <div style="margin-left: 10px;"><br>
+            <input type="submit" value="Accept"></div>
     </form>
+</fieldset>
+</center>
 
+<script>
+
+var actualUsername="Arlisa";
+var actualPassword="Arli.123";
+
+var username = prompt("Enter Username");
+var password = prompt("Enter password");
+
+if(username==actualUsername&password==actualPassword){
+    alert("You signed in succesfully");
+}else{
+    alert("Try again");
+}
+
+</script>
 
 </body>
 </html>

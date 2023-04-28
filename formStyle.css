@@ -1,0 +1,28 @@
+form{
+    background-color:rgb(231, 218, 218) ;
+    border: 3px solid rgb(184, 70, 70);
+    box-shadow: 4px 4px 4px black;
+}
+fieldset{
+    width: fit-content;
+}
+body{
+    background-color: rgb(126, 192, 192);
+}
+
+legend{
+    color: blue;
+}
+label{
+    color: rgb(29, 26, 26);
+}
+.languages{
+    color: #99994f;
+    border: 2px dashed #b1e5b1;
+}
+.gender{
+    color: blue;
+}
+h1{
+    text-shadow: 4px 4px 4px rgb(78, 75, 75);
+}
